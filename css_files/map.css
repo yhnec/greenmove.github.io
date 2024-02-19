@@ -1,0 +1,67 @@
+.map_shell>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.map_shell {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.map_shell svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.count {
+    fill: none;
+    background-color: none;
+    stroke: darkseagreen;
+    stroke-width: 1px;
+    pointer-events: all;
+}
+.count:hover {
+    animation: higlight 5s linear infinite;
+}
+@keyframes higlight {
+    0% {
+        stroke:darkolivegreen
+    }
+    100% {
+        stroke:darkolivegreen
+    }
+}
+.info_win {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: none;
+    opacity: 0;
+    transition: 0,6s all;
+    pointer-events: none;
+    z-index: 15;
+    overflow-y: auto;
+}
+.info_win.active {
+    pointer-events: all;
+    opacity: 1;
+    transition: 0,6s all;
+}
+.info {
+    position: relative;
+    margin-top: 5%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgb(156, 170, 140);
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 500px;
+}
+.info>img{
+    max-width: 100%;
+    height: auto;
+}

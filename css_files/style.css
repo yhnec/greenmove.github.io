@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(255, 255, 255) !important;
+    color: rgb(75, 76, 69) !important;
+}
+
+.navigation .nav .nav-link {
+    color:rgb(97, 115, 98);
+    font-size: 20px;
+}
+.navigation .nav .nav-link.active {
+    background-color: rgb(117, 145, 119);
+    color:rgb(0,0,0);
+}
+
+.first_page{
+    position: relative;
+    font-size: 30px;
+}
+
+.inf_block {
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(97, 115, 98);
+}
+
+.header .nav .nav-link.active{
+    font-size: 25px;
+    color: rgb(97, 115, 98);
+}
+.header .nav .nav-link{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
